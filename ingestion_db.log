@@ -1,0 +1,114 @@
+2025-10-13 17:13:50,967 - INFO -ingesting begin_inventory.csv in db
+2025-10-13 17:13:57,214 - INFO -ingesting end_inventory.csv in db
+2025-10-13 17:14:09,636 - INFO -ingesting purchases.csv in db
+2025-10-13 17:14:54,724 - INFO -ingesting purchase_prices.csv in db
+2025-10-13 17:15:13,899 - INFO -ingesting sales.csv in db
+2025-10-13 17:34:13,497 - INFO -ingesting begin_inventory.csv in db
+2025-10-13 17:34:26,242 - INFO -ingesting end_inventory.csv in db
+2025-10-13 17:35:04,328 - INFO -ingesting purchases.csv in db
+2025-10-13 17:36:26,595 - INFO -ingesting purchase_prices.csv in db
+2025-10-13 17:37:08,573 - INFO -ingesting sales.csv in db
+2025-10-13 18:01:40,327 - INFO -ingesting vendor_invoice.csv in db
+2025-10-13 18:01:41,064 - INFO -ingestion Complete
+2025-10-13 18:01:41,065 - INFO -
+Total time: 27.493277370929718 minutes
+2025-10-13 18:02:45,358 - INFO -ingesting begin_inventory.csv in db
+2025-10-13 18:02:58,688 - INFO -ingesting end_inventory.csv in db
+2025-10-13 18:03:20,348 - INFO -ingesting purchases.csv in db
+2025-10-13 18:04:09,229 - INFO -ingesting purchase_prices.csv in db
+2025-10-13 18:04:29,005 - INFO -ingesting sales.csv in db
+2025-10-13 18:11:45,768 - INFO -ingesting vendor_invoice.csv in db
+2025-10-13 18:11:46,386 - INFO -ingestion Complete
+2025-10-13 18:11:46,387 - INFO -
+Total time: 9.056471971670787 minutes
+2025-10-13 18:35:20,565 - INFO -creating vendor summary table.....
+2025-10-13 18:35:57,247 - INFO -   VendorNumber                   VendorName  Brand              Description  \
+0          3960  DIAGEO NORTH AMERICA INC      4261   Capt Morgan Spiced Rum   
+1          1128  BROWN-FORMAN CORP             1233  Jack Daniels No 7 Black   
+2          4425        MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+3          3960  DIAGEO NORTH AMERICA INC      3545          Ketel One Vodka   
+4         17035  PERNOD RICARD USA             8068         Absolut 80 Proof   
+
+   PurchasePrice  ActualPrice Volume  TotalPurchaseQuantity  \
+0          16.17        22.99   1750                86722.0   
+1          26.27        36.99   1750                42584.0   
+2          23.19        28.99   1750                41089.0   
+3          21.89        29.99   1750                42768.0   
+4          18.24        24.99   1750                51168.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            1402294.74             80203.0         1791117.97   
+1            1118681.68             39984.0         1449045.16   
+2             952853.91             40951.0         1229626.93   
+3             936191.52             40198.0         1259244.02   
+4             933304.32             50873.0         1279572.77   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  
+0        164602.35       147367.20    257032.07  
+1        251033.90        73464.92     68601.68  
+2        205986.99        75242.09    144929.24  
+3        200550.42        73858.47    257032.07  
+4        177742.45        93473.04    123780.22  
+2025-10-13 18:35:57,263 - INFO -Cleaning Data....
+2025-10-13 18:35:57,287 - INFO -   VendorNumber                VendorName  Brand              Description  \
+0          3960  DIAGEO NORTH AMERICA INC   4261   Capt Morgan Spiced Rum   
+1          1128         BROWN-FORMAN CORP   1233  Jack Daniels No 7 Black   
+2          4425     MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+3          3960  DIAGEO NORTH AMERICA INC   3545          Ketel One Vodka   
+4         17035         PERNOD RICARD USA   8068         Absolut 80 Proof   
+
+   PurchasePrice  ActualPrice  Volume  TotalPurchaseQuantity  \
+0          16.17        22.99  1750.0                86722.0   
+1          26.27        36.99  1750.0                42584.0   
+2          23.19        28.99  1750.0                41089.0   
+3          21.89        29.99  1750.0                42768.0   
+4          18.24        24.99  1750.0                51168.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            1402294.74             80203.0         1791117.97   
+1            1118681.68             39984.0         1449045.16   
+2             952853.91             40951.0         1229626.93   
+3             936191.52             40198.0         1259244.02   
+4             933304.32             50873.0         1279572.77   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  
+0        164602.35       147367.20    257032.07  
+1        251033.90        73464.92     68601.68  
+2        205986.99        75242.09    144929.24  
+3        200550.42        73858.47    257032.07  
+4        177742.45        93473.04    123780.22  
+2025-10-13 18:35:57,303 - INFO -ingesting data.....
+2025-10-13 18:35:57,443 - INFO -Completed
+2025-10-13 20:09:20,088 - ERROR -No such comm target registered: jupyter.widget.control
+2025-10-13 20:09:20,123 - WARNING -No such comm: 2b0ce4ed-9d67-4a91-8eb9-47bcf2415fa9
+2025-10-13 20:09:20,125 - DEBUG -Current comms: []
+2025-10-13 20:09:20,301 - ERROR -No such comm target registered: jupyter.widget.control
+2025-10-13 20:09:20,363 - WARNING -No such comm: 3cda774d-cf1b-4acb-8176-e4a50fa0a6a4
+2025-10-13 20:09:20,365 - DEBUG -Current comms: []
+2025-10-13 22:10:09,708 - ERROR -No such comm target registered: jupyter.widget.control
+2025-10-13 22:10:09,717 - WARNING -No such comm: 4dcca55a-3d84-486e-84f6-5e31f7c11a15
+2025-10-13 22:10:09,718 - DEBUG -Current comms: []
+2025-10-13 22:10:09,770 - ERROR -No such comm target registered: jupyter.widget.control
+2025-10-13 22:10:09,781 - WARNING -No such comm: affed9a8-9f4d-49bb-a7ef-444ee67c38c7
+2025-10-13 22:10:09,782 - DEBUG -Current comms: []
+2025-10-13 23:36:33,341 - ERROR -No such comm target registered: jupyter.widget.control
+2025-10-13 23:36:33,349 - WARNING -No such comm: 5a3df1b9-633c-4903-92ff-6252f35759b0
+2025-10-13 23:36:33,351 - DEBUG -Current comms: []
+2025-10-13 23:36:33,374 - ERROR -No such comm target registered: jupyter.widget.control
+2025-10-13 23:36:33,382 - WARNING -No such comm: f42079a1-51ab-44dd-ace3-b5b4c5d2dfb3
+2025-10-13 23:36:33,383 - DEBUG -Current comms: []
+2025-10-14 17:19:45,965 - INFO -ingesting begin_inventory.csv in db
+2025-10-14 17:19:59,237 - INFO -ingesting end_inventory.csv in db
+2025-10-14 17:20:20,524 - INFO -ingesting purchases.csv in db
+2025-10-14 17:21:27,566 - INFO -ingesting purchase_prices.csv in db
+2025-10-14 17:21:51,202 - INFO -ingesting sales.csv in db
+2025-10-14 17:32:57,690 - INFO -ingesting vendor_invoice.csv in db
+2025-10-14 17:32:58,227 - INFO -ingestion Complete
+2025-10-14 17:32:58,229 - INFO -
+Total time: 13.24120589097341 minutes
+2025-10-14 18:25:21,984 - ERROR -No such comm target registered: jupyter.widget.control
+2025-10-14 18:25:22,074 - WARNING -No such comm: 3ea63dcd-84bd-43c8-9830-e641c55a0d7d
+2025-10-14 18:25:22,075 - DEBUG -Current comms: []
+2025-10-14 19:20:57,682 - ERROR -No such comm target registered: jupyter.widget.control
+2025-10-14 19:20:57,696 - WARNING -No such comm: 7ae4ec75-9eea-4f94-ba8d-1179f4ea4913
+2025-10-14 19:20:57,696 - DEBUG -Current comms: []
